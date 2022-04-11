@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body> <h1>로그인</h1>
+
+    <form action="https://www.naver.com/">
+        <label for="fname">이름  :</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">비밀번호:</label>
+        <input type="password" id="lname" name="lname"><br><br>
+
+        <h3>자기 소개서 작성</h3>
+<form>
+	이름 : <input type="text" value=""><br>
+	암호 : <input type="password" value="" maxlength="4"><br>
+	자소서 : <textarea cols="20" rows="5">
+							이곳에 자기소개서 작성
+				  </textarea>
+</form>
+
+
+        <h3>가보고 싶은 곳</h3>
+        
+        <form>
+        나라 : <input type="text" list="countries"><br>
+                    <datalist id="countries">
+                        <option value="일본">
+                        <option value="한국">
+                        <option value="하와이">
+                    </datalist>
+        보고싶은것 : <input type="text" list="what"><br>
+                    <datalist id="what">
+                        <option value="산">
+                        <option value="바다">
+                        <option value="도시">
+                    </datalist>
+        </form>
+
+        <h3>당신의 성을 알여 주세요</h3>
+
+<form>
+	남 <input type="checkbox" value="1">
+	여 <input type="checkbox" value="2" checked>
+	중성 <input type="checkbox" value="3">
+</form>
+        
+        <input type="reset" >
+        <input type="submit" value="제출">
+      </form>
+
+
+
+
+
+
+
+</body>
+</html>
