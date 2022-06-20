@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<form lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+
+input[type=text] { 
+	color : red;
+    border : 2px solid skyblue;
+	border-radius : 5px;
+}
+
+input[type=text]:hover {
+background-color: pink;
+}
+
+input[type=text]:focus{
+    font-size: 120%;
+}
+
+
+
+
+
+@keyframes tcolor {
+    0%{color: red;}
+    30%{color: green;}
+    60%{color: blue;}
+    90%{color: red;}
+}
+
+@keyframes 꾸미기 {
+    from{font-size: 200%;}
+    to {font-size: 100%;}
+}
+
+
+span{
+    animation-name: tcolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+.bbb{
+    animation-name: 꾸미기;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+    <h3><span>폼</span><span class="bbb">꾸미기</span></h3>
+<hr>
+
+
+
+<label>이름:
+<input type="text" placeholder="이름">
+</label>
+<br>
+
+
+<label>Email:
+<input type="text" placeholder="Email">
+</label>
+<br>
+
+<label>Comment:
+<input type="text" placeholder="적어주세요">
+</label>
+<br>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
